@@ -1,15 +1,11 @@
 package com.example.swipeapp
 
-
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-/**
- * A simple [Fragment] subclass.
- */
 class Fragment1 : Fragment() {
 
     override fun onCreateView(
