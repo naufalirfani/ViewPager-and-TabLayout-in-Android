@@ -10,11 +10,11 @@ class PagerAdapter (fm: FragmentManager) : FragmentStatePagerAdapter(fm){
     private val tabName : Array<String> = arrayOf("Home", "Status", "Profile")
 
     override fun getItem(position: Int): Fragment {
-        when (position) {
+        return when (position) {
 
-            0 -> return Fragment1()
-            1-> return Fragment2()
-            else -> return Fragment3()
+            0 -> Fragment1()
+            1-> Fragment2()
+            else -> Fragment3()
         }
     }
 
