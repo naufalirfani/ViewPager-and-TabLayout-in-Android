@@ -22,7 +22,7 @@ class PagerAdapter (fm: FragmentManager) : FragmentStatePagerAdapter(fm){
         return 3
     }
 
-    override fun getPageTitle(position: Int): CharSequence? = tabName.get(position)
+    override fun getPageTitle(position: Int): CharSequence? = tabName[position]
 
 
 }
