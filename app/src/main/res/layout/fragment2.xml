@@ -11,7 +11,7 @@
         android:id="@+id/screen2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="This is Screen 2"
+        android:text="@string/this_is_screen_2"
         android:padding="10dp"
         android:textSize="30sp" />
 
